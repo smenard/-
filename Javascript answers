@@ -1,18 +1,27 @@
 Hi 愉快.
 If you got nothing to do, just learn javascript. 
 
-First challenge : 
-The aim of this challenge is to change the text of body.
+First challenge : The aim of this challenge is to change the text of body.
 
 Mathematical way of programming :
+
 function c(){
   document.getElementById("r").innerHTML = "Hello World :)";
 }
 
-Second challenge :
-The aim of this challange is to calculate the result of the computed ascii text. 
+Second challenge : The aim of this challange is to calculate the result of the computed ascii text. 
 
 Mathematical way of programming :
+
+function r(){
+  var t = 0;
+  var q = document.getElementById("r").innerHTML;
+  var n = q.length; 
+  for(var i = 0; i < n; i++){
+    t += q.charCodeAt(i);
+  }
+  document.getElementById("r").innerHTML = t;
+}
 
 Third challenge : 
 
