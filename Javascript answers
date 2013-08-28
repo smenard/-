@@ -23,7 +23,7 @@ function r(){
   document.getElementById("r").innerHTML = t;
 }
 
-Third challenge : 
+Third challenge : Purpuse is, with the 120 first numbers of the mathematical constant : adding pair and substract the odd.
 
 
 
